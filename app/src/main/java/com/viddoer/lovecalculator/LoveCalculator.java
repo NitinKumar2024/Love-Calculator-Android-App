@@ -21,7 +21,7 @@ public class LoveCalculator {
             URL urlObj = new URL(url + getParamsString(params));
             HttpURLConnection connection = (HttpURLConnection) urlObj.openConnection();
             connection.setRequestMethod("GET");
-            connection.setRequestProperty("X-RapidAPI-Key", "4b7669c2d9msh74c0eea809f3683p172f9ajsnd7b435b8d803");
+            connection.setRequestProperty("X-RapidAPI-Key", "YOUR-API-KEY");
             connection.setRequestProperty("X-RapidAPI-Host", "love-calculator.p.rapidapi.com");
 
             int responseCode = connection.getResponseCode();
